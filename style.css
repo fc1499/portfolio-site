@@ -1,0 +1,113 @@
+/* This is default helpul CSS to include - dont edit this part unless... you want to */
+html,
+
+
+
+@font-face {
+     font-family: sansation;
+     src: url(DTM-Mono.otf);
+  }
+
+body {
+margin:0px;
+background-color: black;
+}
+
+p {
+  font-family: sansation;
+  font-size:2.5em;
+   color:white;
+   position: absolute;
+   background-color: black;
+   margin: 100px;
+}
+
+.container {
+  position:absolute;
+  height:auto;
+  width:100%;
+}
+
+img {
+  position:absolute;
+}
+#homepage {
+  height:auto;
+  width:auto;
+  top:0px;
+  right:40px;
+}
+
+#camera {
+  top:596px;
+  right:982px;
+}
+#camera:hover {
+  transform: scale(1.05, 1.05);
+}
+#camera:active {
+  transform: translateY(2px);
+}
+
+#plaque {
+  top:420px;
+  right:335px;
+}
+    #plaque:hover {
+      transform: scale(1.05, 1.05);
+    }
+    #plaque:active {
+      transform: translateY(2px);
+    }
+
+#photo1 {
+  top:110px;
+  right:462px;
+}
+    #photo1:hover {
+      transform: scale(1.05, 1.05);
+    }
+    #photo1:active {
+      transform: translateY(2px);
+    }
+
+#computer {
+  top:448px;
+  right:739px;
+}
+    #computer:hover {
+      transform: scale(1.05, 1.05);
+    }
+    #computer:active {
+      transform: translateY(2px);
+    }
+
+#photo2 {
+  top:114px;
+  right:977px;
+}
+    #photo2:hover {
+      transform: scale(1.05, 1.05);
+    }
+    #photo2:active {
+      transform: translateY(2px);
+    }
+
+#myself {
+  top:420px;
+  right:642px;
+}
+    #myself:hover {
+      transform: scale(1.05, 1.05);
+    }
+    #myself:active {
+      transform: translateY(2px);
+    }
+
+#rose {
+  top:236px;
+  right:1295px;
+}
+  #rose:active {
+    transform: translateY(2px);
+  }
