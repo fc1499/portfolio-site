@@ -247,6 +247,32 @@ img {
   left: 29%;
 }
 
+#portrait7 {
+  margin-top: 3%;
+  width: 62%;
+  left: 19%;
+}
+
+#portrait8 {
+  margin-top: 3%;
+  width: 35%;
+  left: 33%;
+}
+#portrait9 {
+  margin-top: 3%;
+  width: 70%;
+  left: 15%;
+}
+#portrait10 {
+  margin-top: 3%;
+  width: 70%;
+  left: 15%;
+}
+#portrait11 {
+  margin-top: 3%;
+  width: 70%;
+  left: 15%;
+}
 /* Fading animation */
 .fade {
   -webkit-animation-name: fade;
