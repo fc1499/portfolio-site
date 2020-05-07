@@ -13,43 +13,105 @@
 </head>
 
 <body>
-
+  <iframe src="undertale.mp3" type="audio/mp3" allow="autoplay" id="audio" style="display:none"></iframe>
+<audio autoplay>
+    <source src="undertale.mp3" type="audio/mp3">
+</audio>
   <div class="container">
     <img id="homepage" src="images/homepage.png">
     <img id="camera" src="images/camera.png">
     <img id="plaque" src="images/plaque.png">
-      <a href="https://www.youtube.com/channel/UCGEEOORgz4yqBNcg1wA4Rxw" target="_blank">
-          <img id="computer" src="images/computer.png">
-        </a>
+    <a href="https://www.youtube.com/channel/UCGEEOORgz4yqBNcg1wA4Rxw" target="_blank">
+      <img id="computer" src="images/computer.png">
+    </a>
     <img id="photo1" src="images/photo1.png">
     <img id="photo2" src="images/photo2.png">
     <img id="myself" src="images/myself.png">
-
     <img id="rose" src="images/rose.png">
+
   </div>
-  <p id="aboutme">Hi, my name is Frederic Chen! I am currently a freshman studying Integrated Digital Media at NYU. What you're looking at is my room where I do most of my work. Currently, I make weekly videos on YouTube, but I'm also a photographer
-    in my free time. I enjoy painting, animation, and video games, so hopefully this site shows you a bit more about who I am. </p>
-  <p id="games">This is a rose from Minecraft! I love video games, especially ones with pixel art like Undertale and Maplestory, They inspired me to start making my own pixel art, which is what you see on the page. </p>
-  <p id="youtubedesc"> This is a plaque I received from YouTube when I reached 100,000 subscribers. It took me 3 years to achieve it, and now I have almost 600,000!</p>
-  <p id="skills">I currently use a Canon 80D, and I've done professional photography for over 3 years now. I mainly take portraits or nature photos. I am proficient in Adobe Lightroom, Photoshop, Premiere Pro, Animate, InDesign, and Final Cut Pro X.
-  </p>
-  <p id="ex">X</p>
-  <img id="face" src="images/face.png">
+
+  <img id="aboutme" src="images/aboutme.png">
+  <img id="games" src="images/games.png">
+  <img id="youtubedesc" src="images/youtubedesc.png">
+  <img id="skills" src="images/skills.png">
+  <img id="ex" src="images/ex.png">
+
+  <!-- SOURCE: https://www.w3schools.com/howto/howto_js_slideshow.asp -->
+  <div class="slideshow-container">
 
 
+    <div class="mySlides fade">
+      <img id="nature1" src="images/nature1.jpg" width="70%">
+    </div>
 
-<!--
-<div class="natureCSS">
-  <img class="nature" src="images/nature1.jpg" width="30%">
-  <img class="nature" src="images/nature2.jpg"  width="30%">
-  <img class="nature" src="images/nature3.jpg"  width="30%">
-  <img class="nature" src="images/nature4.jpg"  width="30%">
-  <img class="nature" src="images/nature5.jpg"  width="30%">
-</div> -->
+    <div class="mySlides fade">
+      <img id="nature2" src="images/nature2.jpg" width="80%">
+    </div>
+
+    <div class="mySlides fade">
+      <img id="nature3" src="images/nature3.jpg" width="90%">
+    </div>
+
+    <div class="mySlides fade">
+      <img id="nature4" src="images/nature4.jpg" width="90%">
+    </div>
+
+    <div class="mySlides fade">
+      <img id="nature5" src="images/nature5.jpg" width="70%">
+    </div>
 
 
+    <a class="next" onclick="plusSlides(1)">
+      <img id="next" src="images/next.png">
+    </a>
 
-  <!-- <p id="void"> Might wanna change your window size...</p> -->
+    <a class="prev" onclick="plusSlides(-1)">
+      <img id="prev" src="images/prev.png">
+    </a>
+
+    <img id="exSlide1" src="images/ex.png">
+
+  </div>
+
+<!-- SECOND SLIDESHOW -->
+
+<div class="slideshow-container2">
+  <div class="mySlide fade">
+    <img id="portrait1" src="images/portrait1.jpg">
+  </div>
+
+  <div class="mySlide fade">
+    <img id="portrait2" src="images/portrait2.jpg">
+  </div>
+
+  <div class="mySlide fade">
+    <img id="portrait3" src="images/portrait3.jpg">
+  </div>
+
+  <div class="mySlide fade">
+    <img id="portrait4" src="images/portrait4.jpg">
+  </div>
+
+  <div class="mySlide fade">
+    <img id="portrait5" src="images/portrait5.jpg">
+  </div>
+
+  <div class="mySlide fade">
+    <img id="portrait6" src="images/portrait6.jpg">
+  </div>
+
+  <a class="next2" onclick="plusSlide(1)">
+    <img id="next2" src="images/next.png">
+  </a>
+
+  <a class="prev2" onclick="plusSlide(-1)">
+    <img id="prev2" src="images/prev.png">
+  </a>
+
+
+</div>
+
 </body>
 
 </html>

@@ -1,13 +1,12 @@
-/* This is default helpul CSS to include - dont edit this part unless... you want to */
 html,
-/* @font-face {
-  font-family: myFont;
-  src:url(determination.otf);
-} */
+
+/* All code was written by me, referenced previous assignments such as object meditation and used some attributes
+from W3Schools. */
 body {
   font-family: 'Press Start 2P', cursive;
   margin: 0px;
   background-color: black;
+  max-height: 942px;
 }
 
 p {
@@ -19,18 +18,10 @@ p {
   background-color: black;
   margin-left: 3%;
   margin-right: 3%;
+  margin-top: 37%;
   bottom: 0%;
 }
 
-/*
-#void {
-  position: fixed;
-  border: none;
-  margin: auto;
-  text-align: center;
-  padding: 0px;
-  background-color: n/a;
-} */
 .natureCSS {
   border: 10px solid white;
   margin-left: auto;
@@ -40,44 +31,26 @@ p {
 
 #ex {
   display: none;
-  bottom: 32%;
-  left: 92.7%;
-  font-size: 1vw;
-  padding: 6px;
-  padding-right: 6px;
-  padding-left: 8px;
-  border: 5px solid white;
+  width: 3%;
+  margin-top: 32.5%;
+  left: 95.7%;
 }
 
-#aboutme {
-    top:60%;
-  display: none;
-  font-size: 1.3vw;
-  padding-left: 16vw;
+#ex:hover {
+  transform: scale(1.05, 1.05);
 }
 
-#games {
-    top:60%;
+#aboutme, #games, #youtubedesc, #skills {
   display: none;
-  font-size: 1.8vw;
-  padding-left: 16vw;
+  margin-top: 33.5%;
+  margin-left: 2.5%;
+  margin-right: : 3%;
+  width: 95%;
 }
-
-#youtubedesc {
-    top:60%;
-  display: none;
-      font-size: 1.88vw;
-    padding-left: 16vw;
-}
-
-#skills {
-    top:60%;
-  display: none;
-    font-size: 1.55vw;
-    padding-left: 16vw;
 }
 
 .container {
+  filter: brightness(100%);
   position: absolute;
   width: 100%;
 }
@@ -91,104 +64,232 @@ img {
   width: 100%;
 }
 
-#face {
-  left: 5%;
-  margin-top: 38%;
-  display: none;
-  position: absolute;
-  width: 13%;
-}
-
 #camera {
+  cursor: pointer;
   margin-top: 35.5%;
   right: 59%;
   width: 10.15%;
 }
 
-#camera:hover {
+#camera:hover, #plaque:hover, #photo1:hover, #computer:hover, #photo2:hover, #myself:hover {
   transform: scale(1.05, 1.05);
 }
 
-#camera:active {
+#camera:active, #plaque:active, #photo1:active, #computer:active, #photo2:active, #myself:active, #rose:active {
   transform: translateY(2px);
 }
 
 #plaque {
+  cursor: pointer;
   margin-top: 25.9%;
   right: 18.2%;
   width: 6.85%;
 }
 
-#plaque:hover {
-  transform: scale(1.05, 1.05);
-}
-
-#plaque:active {
-  transform: translateY(2px);
-}
-
 #photo1 {
+  cursor: pointer;
   margin-top: 7%;
   right: 26%;
   width: 19.8%;
 }
 
-#photo1:hover {
-  transform: scale(1.05, 1.05);
-}
-
-#photo1:active {
-  transform: translateY(2px);
-}
-
 #computer {
+  cursor: pointer;
   margin-top: 27.5%;
   right: 42.5%;
   width: 14.5%;
 }
 
-#computer:hover {
-  transform: scale(1.05, 1.05);
-}
-
-#computer:active {
-  transform: translateY(2px);
-}
-
 #photo2 {
+  cursor: pointer;
   margin-top: 7%;
   right: 57.1%;
   width: 13%;
 }
 
-#photo2:hover {
-  transform: scale(1.05, 1.05);
-}
-
-#photo2:active {
-  transform: translateY(2px);
-}
-
 #myself {
+  cursor: pointer;
   margin-top: 25.70%;
   right: 36.66%;
   width: 12.1%;
 }
 
-#myself:hover {
-  transform: scale(1.05, 1.05);
-}
-
-#myself:active {
-  transform: translateY(2px);
-}
-
 #rose {
+  cursor: pointer;
   margin-top: 14.71%;
   right: 77%;
   width: 5.5%;
 }
 
-#rose:active {
+/* SOURCE:https://www.w3schools.com/howto/howto_js_slideshow.asp */
+.slideshow-container {
+  width: 100%;
+  position: absolute;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  user-select: none;
+}
+
+#next {
+  display: none;
+  width: 5%;
+  margin-top: 30%;
+  left: 90%;
+}
+
+#prev {
+    display: none;
+  width: 5%;
+  margin-top: 30%;
+  right: 90%;
+}
+
+#prev:hover, #next:hover {
+  transform: scale(1.05, 1.05);
+}
+
+#prev:active, #next:active {
   transform: translateY(2px);
+}
+
+#nature1 {
+  width: 40%;
+  left: 29%;
+  margin-top: 3%;
+}
+
+#nature2 {
+  width: 50%;
+  left: 25%;
+  margin-top: 3%;
+}
+
+#nature3 {
+  margin-top: 3%;
+  width: 65%;
+  left: 17%;
+}
+
+#nature4 {
+  margin-top: 5%;
+  width: 65%;
+  left: 17%;
+}
+
+#nature5 {
+  margin-top: 3%;
+  width: 41%;
+  left: 29%;
+
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1s;
+  animation-name: fade;
+  animation-duration: 1s;
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: .4
+  }
+
+  to {
+    opacity: 1
+  }
+}
+
+#exSlide1 {
+  display: none;
+  width: 4%;
+  margin-top: 1%;
+  right: 1%;
+}
+
+
+/* SECOND SLIDESHOW */
+
+.slideshow-container2 {
+  width: 100%;
+  position: absolute;
+}
+
+/* Hide the images by default */
+.mySlide {
+  display: none;
+}
+/* Next & previous buttons */
+.prev2, .next2 {
+  cursor: pointer;
+  user-select: none;
+}
+
+#next2 {
+  /* display:none; */
+  width: 5%;
+  margin-top: 30%;
+  left: 90%;
+}
+
+#prev2 {
+    /* display:none; */
+  width: 5%;
+  margin-top: 30%;
+  right: 90%;
+}
+
+#prev2:hover, #next2:hover {
+  transform: scale(1.05, 1.05);
+}
+
+#prev2:active, #next2:active {
+  transform: translateY(2px);
+}
+
+#portrait1 {
+  width: 70%;
+  left: 15%;
+  margin-top: 3%;
+}
+
+#portrait2 {
+  width: 35%;
+  left: 32%;
+  margin-top: 3%;
+}
+
+#portrait3 {
+  margin-top: 3%;
+  width: 60%;
+  left: 20%;
+}
+
+#portrait4 {
+  margin-top: 2%;
+  width: 36%;
+  left: 31%;
+}
+
+#portrait5 {
+  margin-top: 3%;
+  width: 70%;
+  left: 15%;
+
+}
+
+
+#portrait6 {
+  margin-top: 3%;
+  width: 41%;
+  left: 29%;
+
 }
