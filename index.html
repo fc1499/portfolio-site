@@ -13,10 +13,7 @@
 </head>
 
 <body>
-  <iframe src="undertale.mp3" type="audio/mp3" allow="autoplay" id="audio" style="display:none"></iframe>
-<audio autoplay>
-    <source src="undertale.mp3" type="audio/mp3">
-</audio>
+
   <div class="container">
     <img id="homepage" src="images/homepage.png">
     <img id="camera" src="images/camera.png">
@@ -32,10 +29,19 @@
   </div>
 
   <img id="aboutme" src="images/aboutme.png">
+  <img id="contact" src="images/contact.png">
+  <a href="https://www.twitter.com/thatmidgetasian" target="_blank">
+    <img id="twitter" src="images/twitter.png">
+  </a>
+  <a href="https://www.instagram.com/thatmidgetasian" target="_blank">
+    <img id="insta" src="images/instagram.png">
+  </a>
   <img id="games" src="images/games.png">
   <img id="youtubedesc" src="images/youtubedesc.png">
   <img id="skills" src="images/skills.png">
   <img id="ex" src="images/ex.png">
+
+  <img id="void" src="images/void.png">
 
   <!-- SOURCE: https://www.w3schools.com/howto/howto_js_slideshow.asp -->
   <div class="slideshow-container">
@@ -61,12 +67,11 @@
       <img id="nature5" src="images/nature5.jpg" width="70%">
     </div>
 
-
-    <a class="next" onclick="plusSlides(1)">
+    <a class="next" onclick="plusSlides(1,0)">
       <img id="next" src="images/next.png">
     </a>
 
-    <a class="prev" onclick="plusSlides(-1)">
+    <a class="prev" onclick="plusSlides(-1,0)">
       <img id="prev" src="images/prev.png">
     </a>
 
@@ -74,43 +79,43 @@
 
   </div>
 
-<!-- SECOND SLIDESHOW -->
+  <!-- SECOND SLIDESHOW -->
 
-<div class="slideshow-container2">
-  <div class="mySlide fade">
-    <img id="portrait1" src="images/portrait1.jpg">
+  <div class="slideshow-container2">
+
+    <div class="mySlides2 fade">
+      <img id="portrait1" src="images/portrait1.jpg">
+    </div>
+
+    <div class="mySlides2 fade">
+      <img id="portrait2" src="images/portrait2.jpg">
+    </div>
+
+    <div class="mySlides2 fade">
+      <img id="portrait3" src="images/portrait3.jpg">
+    </div>
+
+    <div class="mySlides2 fade">
+      <img id="portrait4" src="images/portrait4.jpg">
+    </div>
+
+    <div class="mySlides2 fade">
+      <img id="portrait5" src="images/portrait5.jpg">
+    </div>
+
+    <div class="mySlides2 fade">
+      <img id="portrait6" src="images/portrait6.jpg">
+    </div>
+
+    <a class="next2" onclick="plusSlides(1,1)">
+      <img id="next2" src="images/next.png">
+    </a>
+
+    <a class="prev2" onclick="plusSlides(-1,1)">
+      <img id="prev2" src="images/prev.png">
+    </a>
+
   </div>
-
-  <div class="mySlide fade">
-    <img id="portrait2" src="images/portrait2.jpg">
-  </div>
-
-  <div class="mySlide fade">
-    <img id="portrait3" src="images/portrait3.jpg">
-  </div>
-
-  <div class="mySlide fade">
-    <img id="portrait4" src="images/portrait4.jpg">
-  </div>
-
-  <div class="mySlide fade">
-    <img id="portrait5" src="images/portrait5.jpg">
-  </div>
-
-  <div class="mySlide fade">
-    <img id="portrait6" src="images/portrait6.jpg">
-  </div>
-
-  <a class="next2" onclick="plusSlide(1)">
-    <img id="next2" src="images/next.png">
-  </a>
-
-  <a class="prev2" onclick="plusSlide(-1)">
-    <img id="prev2" src="images/prev.png">
-  </a>
-
-
-</div>
 
 </body>
 
