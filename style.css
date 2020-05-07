@@ -1,113 +1,194 @@
 /* This is default helpul CSS to include - dont edit this part unless... you want to */
 html,
-
-
-
-@font-face {
-     font-family: sansation;
-     src: url(DTM-Mono.otf);
-  }
-
+/* @font-face {
+  font-family: myFont;
+  src:url(determination.otf);
+} */
 body {
-margin:0px;
-background-color: black;
+  font-family: 'Press Start 2P', cursive;
+  margin: 0px;
+  background-color: black;
 }
 
 p {
-  font-family: sansation;
-  font-size:2.5em;
-   color:white;
-   position: absolute;
-   background-color: black;
-   margin: 100px;
+  line-height: 150%;
+  color: white;
+  position: absolute;
+  border: 10px solid white;
+  padding: 30px;
+  background-color: black;
+  margin-left: 3%;
+  margin-right: 3%;
+  bottom: 0%;
+}
+
+/*
+#void {
+  position: fixed;
+  border: none;
+  margin: auto;
+  text-align: center;
+  padding: 0px;
+  background-color: n/a;
+} */
+.natureCSS {
+  border: 10px solid white;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+
+#ex {
+  display: none;
+  bottom: 32%;
+  left: 92.7%;
+  font-size: 1vw;
+  padding: 6px;
+  padding-right: 6px;
+  padding-left: 8px;
+  border: 5px solid white;
+}
+
+#aboutme {
+    top:60%;
+  display: none;
+  font-size: 1.3vw;
+  padding-left: 16vw;
+}
+
+#games {
+    top:60%;
+  display: none;
+  font-size: 1.8vw;
+  padding-left: 16vw;
+}
+
+#youtubedesc {
+    top:60%;
+  display: none;
+      font-size: 1.88vw;
+    padding-left: 16vw;
+}
+
+#skills {
+    top:60%;
+  display: none;
+    font-size: 1.55vw;
+    padding-left: 16vw;
 }
 
 .container {
-  position:absolute;
-  height:auto;
-  width:100%;
+  position: absolute;
+  width: 100%;
 }
 
 img {
-  position:absolute;
+  position: absolute;
 }
+
 #homepage {
-  height:auto;
-  width:auto;
-  top:0px;
-  right:40px;
+  height: auto;
+  width: 100%;
+}
+
+#face {
+  left: 5%;
+  margin-top: 38%;
+  display: none;
+  position: absolute;
+  width: 13%;
 }
 
 #camera {
-  top:596px;
-  right:982px;
+  margin-top: 35.5%;
+  right: 59%;
+  width: 10.15%;
 }
+
 #camera:hover {
   transform: scale(1.05, 1.05);
 }
+
 #camera:active {
   transform: translateY(2px);
 }
 
 #plaque {
-  top:420px;
-  right:335px;
+  margin-top: 25.9%;
+  right: 18.2%;
+  width: 6.85%;
 }
-    #plaque:hover {
-      transform: scale(1.05, 1.05);
-    }
-    #plaque:active {
-      transform: translateY(2px);
-    }
+
+#plaque:hover {
+  transform: scale(1.05, 1.05);
+}
+
+#plaque:active {
+  transform: translateY(2px);
+}
 
 #photo1 {
-  top:110px;
-  right:462px;
+  margin-top: 7%;
+  right: 26%;
+  width: 19.8%;
 }
-    #photo1:hover {
-      transform: scale(1.05, 1.05);
-    }
-    #photo1:active {
-      transform: translateY(2px);
-    }
+
+#photo1:hover {
+  transform: scale(1.05, 1.05);
+}
+
+#photo1:active {
+  transform: translateY(2px);
+}
 
 #computer {
-  top:448px;
-  right:739px;
+  margin-top: 27.5%;
+  right: 42.5%;
+  width: 14.5%;
 }
-    #computer:hover {
-      transform: scale(1.05, 1.05);
-    }
-    #computer:active {
-      transform: translateY(2px);
-    }
+
+#computer:hover {
+  transform: scale(1.05, 1.05);
+}
+
+#computer:active {
+  transform: translateY(2px);
+}
 
 #photo2 {
-  top:114px;
-  right:977px;
+  margin-top: 7%;
+  right: 57.1%;
+  width: 13%;
 }
-    #photo2:hover {
-      transform: scale(1.05, 1.05);
-    }
-    #photo2:active {
-      transform: translateY(2px);
-    }
+
+#photo2:hover {
+  transform: scale(1.05, 1.05);
+}
+
+#photo2:active {
+  transform: translateY(2px);
+}
 
 #myself {
-  top:420px;
-  right:642px;
+  margin-top: 25.70%;
+  right: 36.66%;
+  width: 12.1%;
 }
-    #myself:hover {
-      transform: scale(1.05, 1.05);
-    }
-    #myself:active {
-      transform: translateY(2px);
-    }
+
+#myself:hover {
+  transform: scale(1.05, 1.05);
+}
+
+#myself:active {
+  transform: translateY(2px);
+}
 
 #rose {
-  top:236px;
-  right:1295px;
+  margin-top: 14.71%;
+  right: 77%;
+  width: 5.5%;
 }
-  #rose:active {
-    transform: translateY(2px);
-  }
+
+#rose:active {
+  transform: translateY(2px);
+}
